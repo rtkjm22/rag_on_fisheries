@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+openpyxl
+pandas
+psycopg2-binary
+sqlalchemy
+pgvector
+sentence-transformers
+langchain
+huggingface-hub
+fugashi
+protobuf
+langchain-community
+python-dotenv
+black
+alembic
