@@ -23,7 +23,8 @@ from app.models.db import Base
 target_metadata = Base.metadata
 
 # ───── .envからURLを渡す ─────
-config.set_main_option("sqlalchemy.url", os.getenv("DATABASE_URL")) # type: ignore
+config.set_main_option("sqlalchemy.url", os.getenv("DATABASE_URL"))  # type: ignore
+
 
 def run_migrations_offline() -> None:
     url = config.get_main_option("sqlalchemy.url")
